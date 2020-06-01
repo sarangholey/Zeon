@@ -12,7 +12,7 @@ public class _1_WebDriverBasics {
 		// setting up the environment variable of chrome driver
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		//System.setProperty("webdriver.edge.driver", "msedgedriver.exe");
-		// by topcasting created object of chrome driver class
+		// by topcasting created object of chrome driver class 
 		// this will open the browser
 		WebDriver driver = new ChromeDriver();
 		//WebDriver driver = new OperaDriver();
