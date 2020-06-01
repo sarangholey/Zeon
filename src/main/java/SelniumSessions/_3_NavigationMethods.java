@@ -14,6 +14,7 @@ public class _3_NavigationMethods {
 		System.out.println(driver.getTitle());
 		driver.navigate().back();
 		System.out.println(driver.getTitle());
+		driver.navigate().refresh();
 		driver.quit();
 	}
 }
