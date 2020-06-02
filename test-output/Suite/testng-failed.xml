@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://www.seleniumeasy.com/test/input-form-demo.html"/>
+  <test thread-count="5" name="Test(failed)">
     <classes>
       <class name="SelniumSessions._18_DataProviderTestNG._18_TestNg_DataProvider">
         <methods>
           <include name="setUp"/>
-          <include name="loginHubSpot" invocation-numbers="1 2"/>
+          <include name="loginHubSpot"/>
         </methods>
       </class> <!-- SelniumSessions._18_DataProviderTestNG._18_TestNg_DataProvider -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

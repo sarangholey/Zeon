@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SelniumSessions.test">
+      <class name="SelniumSessions._18_DataProviderTestNG._18_TestNg_DataProvider">
         <methods>
-          <include name="autoSuggestion"/>
+          <include name="setUp"/>
+          <include name="loginHubSpot" invocation-numbers="1 2"/>
         </methods>
-      </class> <!-- SelniumSessions.test -->
+      </class> <!-- SelniumSessions._18_DataProviderTestNG._18_TestNg_DataProvider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,17 +1,166 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25825" started-at="2020-05-28T13:56:42Z" finished-at="2020-05-28T13:57:08Z">
+  <suite name="Default suite" duration-ms="35034" started-at="2020-06-02T15:11:28Z" finished-at="2020-06-02T15:12:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25825" started-at="2020-05-28T13:56:42Z" finished-at="2020-05-28T13:57:08Z">
-      <class name="SelniumSessions.test">
-        <test-method status="PASS" signature="autoSuggestion()[pri:0, instance:SelniumSessions.test@28feb3fa]" name="autoSuggestion" duration-ms="25754" started-at="2020-05-28T13:56:42Z" finished-at="2020-05-28T13:57:08Z">
+    <test name="Default test" duration-ms="35034" started-at="2020-06-02T15:11:28Z" finished-at="2020-06-02T15:12:03Z">
+      <class name="SelniumSessions._19_DataProviderTestNGWithExcelFile._19_TestNg_DataProviderWithExcelFile">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:SelniumSessions._19_DataProviderTestNGWithExcelFile._19_TestNg_DataProviderWithExcelFile@66a3ffec]" name="setUp" is-config="true" duration-ms="10228" started-at="2020-06-02T15:11:29Z" finished-at="2020-06-02T15:11:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.seleniumeasy.com/test/input-form-demo.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- autoSuggestion -->
-      </class> <!-- SelniumSessions.test -->
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginHubSpot(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SelniumSessions._19_DataProviderTestNGWithExcelFile._19_TestNg_DataProviderWithExcelFile@66a3ffec]" name="loginHubSpot" duration-ms="1330" started-at="2020-06-02T15:11:39Z" data-provider="USA_UserData" finished-at="2020-06-02T15:11:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Peter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tompeter@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4.5678945E7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[22,east street, new york]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginHubSpot -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SelniumSessions._19_DataProviderTestNGWithExcelFile._19_TestNg_DataProviderWithExcelFile@66a3ffec]" name="tearDown" is-config="true" duration-ms="662" started-at="2020-06-02T15:11:40Z" finished-at="2020-06-02T15:11:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:SelniumSessions._19_DataProviderTestNGWithExcelFile._19_TestNg_DataProviderWithExcelFile@66a3ffec]" name="setUp" is-config="true" duration-ms="9285" started-at="2020-06-02T15:11:41Z" finished-at="2020-06-02T15:11:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.seleniumeasy.com/test/input-form-demo.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginHubSpot(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SelniumSessions._19_DataProviderTestNGWithExcelFile._19_TestNg_DataProviderWithExcelFile@66a3ffec]" name="loginHubSpot" duration-ms="1238" started-at="2020-06-02T15:11:50Z" data-provider="USA_UserData" finished-at="2020-06-02T15:11:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Harry]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Desuza]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[harrydesuza@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4.6578915E7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[22,West street, new gercy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginHubSpot -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SelniumSessions._19_DataProviderTestNGWithExcelFile._19_TestNg_DataProviderWithExcelFile@66a3ffec]" name="tearDown" is-config="true" duration-ms="641" started-at="2020-06-02T15:11:51Z" finished-at="2020-06-02T15:11:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:SelniumSessions._19_DataProviderTestNGWithExcelFile._19_TestNg_DataProviderWithExcelFile@66a3ffec]" name="setUp" is-config="true" duration-ms="9236" started-at="2020-06-02T15:11:52Z" finished-at="2020-06-02T15:12:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.seleniumeasy.com/test/input-form-demo.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginHubSpot(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SelniumSessions._19_DataProviderTestNGWithExcelFile._19_TestNg_DataProviderWithExcelFile@66a3ffec]" name="loginHubSpot" duration-ms="1277" started-at="2020-06-02T15:12:01Z" data-provider="USA_UserData" finished-at="2020-06-02T15:12:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[johnsmith@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.2345678E7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[22,North street, DC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginHubSpot -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SelniumSessions._19_DataProviderTestNGWithExcelFile._19_TestNg_DataProviderWithExcelFile@66a3ffec]" name="tearDown" is-config="true" duration-ms="632" started-at="2020-06-02T15:12:02Z" finished-at="2020-06-02T15:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SelniumSessions._19_DataProviderTestNGWithExcelFile._19_TestNg_DataProviderWithExcelFile -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
